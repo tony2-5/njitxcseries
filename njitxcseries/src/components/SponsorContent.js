@@ -98,7 +98,7 @@ Author.propTypes = {
 };
 
 
-export default function MainContent() {
+export default function SponsorContent() {
   const [focusedCardIndex, setFocusedCardIndex] = React.useState(null);
 
   const handleFocus = (index) => {

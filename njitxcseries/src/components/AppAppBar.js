@@ -51,13 +51,13 @@ export default function AppAppBar() {
         <StyledToolbar variant="dense" disableGutters>
           <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'space-around', px: 0 }}>
             <Box sx={{ display: { xs: 'none', md: 'flex', gap: '2vw' } }}>
-              <Button sx={{ fontWeight:"bold" }} variant="text" color="primary" size="medium">
+              <Button href="/" sx={{ fontWeight:"bold" }} variant="text" color="primary" size="medium">
                 Home
               </Button>
-              <Button sx={{ fontWeight:"bold" }} variant="text" color="primary" size="medium">
+              <Button href="alumn-opener" sx={{ fontWeight:"bold" }} variant="text" color="primary" size="medium">
                 NJIT Alumni XC Opener
               </Button>
-              <Button sx={{ fontWeight:"bold" }} variant="text" color="primary" size="medium">
+              <Button href="xc-invite" sx={{ fontWeight:"bold" }} variant="text" color="primary" size="medium">
                 NJIT XC Invitiational 
               </Button>
             </Box>
