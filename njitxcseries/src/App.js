@@ -20,10 +20,10 @@ function App() {
         <AppAppBar />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<SponsorContent />}/>
+            <Route path="/njitxcseries" element={<SponsorContent />}/>
             <Route path="/alumn-opener" element={<XCAlumni />}/>
             <Route path="/xc-invite" element={<XCInvite />}/>
-            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="*" element={<Navigate to="/njitxcseries" />} />
           </Routes>
         </BrowserRouter>
         <Footer />
