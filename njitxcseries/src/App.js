@@ -18,14 +18,14 @@ function App() {
         sx={{ display: 'flex', flexDirection: 'column', my: 16, gap: 4 }}
       >
         <AppAppBar />
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/njitxcseries" element={<SponsorContent />}/>
             <Route path="/njitxcseries/alumn-opener" element={<XCAlumni />}/>
             <Route path="/njitxcseries/xc-invite" element={<XCInvite />}/>
             <Route path="*" element={<Navigate to="/njitxcseries" />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
         <Footer />
       </Container>
     </>
