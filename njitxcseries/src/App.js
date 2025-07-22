@@ -17,13 +17,13 @@ function App() {
         component="main"
         sx={{ display: 'flex', flexDirection: 'column', my: 16, gap: 4 }}
       >
-        <AppAppBar />
         <HashRouter>
+        <AppAppBar />
           <Routes>
-            <Route path="/njitxcseries" element={<SponsorContent />}/>
-            <Route path="/njitxcseries/alumn-opener" element={<XCAlumni />}/>
-            <Route path="/njitxcseries/xc-invite" element={<XCInvite />}/>
-            <Route path="*" element={<Navigate to="/njitxcseries" />} />
+            <Route path="/" element={<SponsorContent />}/>
+            <Route path="/alumn-opener" element={<XCAlumni />}/>
+            <Route path="/xc-invite" element={<XCInvite />}/>
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </HashRouter>
         <Footer />

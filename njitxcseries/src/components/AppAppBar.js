@@ -10,6 +10,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Drawer from '@mui/material/Drawer';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
+import { Link } from 'react-router-dom';
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   display: 'flex',
@@ -51,15 +52,36 @@ export default function AppAppBar() {
         <StyledToolbar variant="dense" disableGutters>
           <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'space-around', px: 0 }}>
             <Box sx={{ display: { xs: 'none', md: 'flex', gap: '2vw' } }}>
-              <Button href="/njitxcseries" sx={{ fontWeight:"bold" }} variant="text" color="primary" size="medium">
-                Home
-              </Button>
-              <Button href="/njitxcseries/alumn-opener" sx={{ fontWeight:"bold" }} variant="text" color="primary" size="medium">
-                NJIT Alumni XC Opener
-              </Button>
-              <Button href="/njitxcseries/xc-invite" sx={{ fontWeight:"bold" }} variant="text" color="primary" size="medium">
-                NJIT XC Invitiational 
-              </Button>
+            <Button 
+              component={Link} 
+              to="/" 
+              sx={{ fontWeight: "bold" }} 
+              variant="text" 
+              color="primary" 
+              size="medium"
+            >
+              Home
+            </Button>
+            <Button 
+              component={Link} 
+              to="/alumn-opener" 
+              sx={{ fontWeight: "bold" }} 
+              variant="text" 
+              color="primary" 
+              size="medium"
+            >
+              NJIT Alumni XC Opener
+            </Button>
+            <Button 
+              component={Link} 
+              to="/xc-invite" 
+              sx={{ fontWeight: "bold" }} 
+              variant="text" 
+              color="primary" 
+              size="medium"
+            >
+              NJIT XC Invitational
+            </Button>
             </Box>
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1 }}>
