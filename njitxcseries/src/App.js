@@ -3,7 +3,7 @@ import AppAppBar from './components/AppAppBar';
 import Footer from './components/Footer';
 import { Container,CssBaseline } from '@mui/material';
 import SponsorContent from './components/SponsorContent';
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
 import PageNotFound from './components/PageNotFound';
 import XCInvite from './components/XCInvite';
 import XCAlumni from './components/XCAlumni';
@@ -21,8 +21,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/njitxcseries" element={<SponsorContent />}/>
-            <Route path="/alumn-opener" element={<XCAlumni />}/>
-            <Route path="/xc-invite" element={<XCInvite />}/>
+            <Route path="/njitxcseries/alumn-opener" element={<XCAlumni />}/>
+            <Route path="/njitxcseries/xc-invite" element={<XCInvite />}/>
             <Route path="*" element={<Navigate to="/njitxcseries" />} />
           </Routes>
         </BrowserRouter>
