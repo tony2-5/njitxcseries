@@ -84,9 +84,10 @@ export default function AppAppBar() {
             </Button>
             </Box>
           </Box>
-          <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1 }}>
+          <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1, width: "100%", justifyContent: "center" }}>
             {/* Menu when display is small */}
             <IconButton aria-label="Menu button" onClick={toggleDrawer(true)}>
+              <span className='mr-4'>Open Menu</span>
               <MenuIcon />
             </IconButton>
             <Drawer
@@ -110,9 +111,42 @@ export default function AppAppBar() {
                     <CloseRoundedIcon />
                   </IconButton>
                 </Box>
-                <MenuItem>Home</MenuItem>
-                <MenuItem>NJIT Alumni XC Opener</MenuItem>
-                <MenuItem>NJIT XC Invitiational</MenuItem>
+                <MenuItem>
+                  <Button 
+                    component={Link} 
+                    to="/" 
+                    sx={{ fontWeight: "bold", width: "100%" }} 
+                    variant="text" 
+                    color="primary" 
+                    size="medium"
+                  >
+                    Home
+                  </Button>
+                </MenuItem>
+                <MenuItem>
+                  <Button 
+                    component={Link} 
+                    to="/alumn-opener" 
+                    sx={{ fontWeight: "bold", width: "100%" }} 
+                    variant="text" 
+                    color="primary" 
+                    size="medium"
+                  >
+                    NJIT Alumni XC Opener
+                  </Button>
+                </MenuItem>
+                <MenuItem>
+                  <Button 
+                    component={Link} 
+                    to="/xc-invite" 
+                    sx={{ fontWeight: "bold", width: "100%" }} 
+                    variant="text" 
+                    color="primary" 
+                    size="medium"
+                  >
+                    NJIT XC Invitational
+                  </Button>
+                </MenuItem>
               </Box>
             </Drawer>
           </Box>
