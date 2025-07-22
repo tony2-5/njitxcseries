@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/njitxcseries/static/css/main.e060b2db.css",
-    "main.js": "/njitxcseries/static/js/main.b20dc82a.js",
+    "main.css": "/njitxcseries/static/css/main.a8aaba93.css",
+    "main.js": "/njitxcseries/static/js/main.d8bf96b6.js",
     "static/media/pdf.worker.min.mjs": "/njitxcseries/static/media/pdf.worker.min.2b548340be18274ba1cf.mjs",
     "static/media/21stAnnualNJITXCInvitationalInfoSheet.pdf": "/njitxcseries/static/media/21stAnnualNJITXCInvitationalInfoSheet.ddec64e4b313be2c3484.pdf",
     "static/media/NJITAlumniXCOpenerInfoSheet.pdf": "/njitxcseries/static/media/NJITAlumniXCOpenerInfoSheet.266d65754261bdb54b80.pdf",
     "index.html": "/njitxcseries/index.html",
-    "main.e060b2db.css.map": "/njitxcseries/static/css/main.e060b2db.css.map",
-    "main.b20dc82a.js.map": "/njitxcseries/static/js/main.b20dc82a.js.map"
+    "main.a8aaba93.css.map": "/njitxcseries/static/css/main.a8aaba93.css.map",
+    "main.d8bf96b6.js.map": "/njitxcseries/static/js/main.d8bf96b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e060b2db.css",
-    "static/js/main.b20dc82a.js"
+    "static/css/main.a8aaba93.css",
+    "static/js/main.d8bf96b6.js"
   ]
 }
