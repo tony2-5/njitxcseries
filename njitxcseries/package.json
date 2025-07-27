@@ -1,7 +1,7 @@
 {
   "name": "njitxcseries",
   "version": "0.1.0",
-  "homepage": "https://njitxcseries.com",
+  "homepage": "https://www.njitxcseries.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
