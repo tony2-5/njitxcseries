@@ -52,7 +52,7 @@ export default function AppAppBar() {
         <StyledToolbar variant="dense" disableGutters>
           <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'space-around', px: 0 }}>
             <Box sx={{ display: { xs: 'none', md: 'flex', gap: '2vw' } }}>
-            <Button 
+            {/* <Button 
               component={Link} 
               to="/" 
               sx={{ fontWeight: "bold" }} 
@@ -61,7 +61,7 @@ export default function AppAppBar() {
               size="medium"
             >
               Home
-            </Button>
+            </Button> */}
             <Button 
               component={Link} 
               to="/alumn-opener" 

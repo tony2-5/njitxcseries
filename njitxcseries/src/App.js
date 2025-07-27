@@ -20,10 +20,10 @@ function App() {
         <HashRouter>
         <AppAppBar />
           <Routes>
-            <Route path="/" element={<SponsorContent />}/>
+            {/* <Route path="/" element={<SponsorContent />}/> */}
             <Route path="/alumn-opener" element={<XCAlumni />}/>
             <Route path="/xc-invite" element={<XCInvite />}/>
-            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="*" element={<Navigate to="/xc-invite" />} />
           </Routes>
         </HashRouter>
         <Footer />
