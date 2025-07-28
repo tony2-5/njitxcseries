@@ -7,6 +7,7 @@ import { HashRouter, Routes, Route, Navigate, BrowserRouter } from "react-router
 import PageNotFound from './components/PageNotFound';
 import XCInvite from './components/XCInvite';
 import XCAlumni from './components/XCAlumni';
+import Release from './components/Release';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             {/* <Route path="/" element={<SponsorContent />}/> */}
             <Route path="/alumn-opener" element={<XCAlumni />}/>
             <Route path="/xc-invite" element={<XCInvite />}/>
+            <Route path="/release" element={<Release />}/>
             <Route path="*" element={<Navigate to="/xc-invite" />} />
           </Routes>
         </HashRouter>

@@ -82,6 +82,16 @@ export default function AppAppBar() {
             >
               NJIT XC Invitational
             </Button>
+            <Button 
+              component={Link} 
+              to="/release" 
+              sx={{ fontWeight: "bold" }} 
+              variant="text" 
+              color="primary" 
+              size="medium"
+            >
+              Release Form
+            </Button>
             </Box>
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1, width: "100%", justifyContent: "center" }}>
@@ -111,7 +121,7 @@ export default function AppAppBar() {
                     <CloseRoundedIcon />
                   </IconButton>
                 </Box>
-                <MenuItem>
+                {/* <MenuItem>
                   <Button 
                     component={Link} 
                     to="/" 
@@ -122,7 +132,7 @@ export default function AppAppBar() {
                   >
                     Home
                   </Button>
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem>
                   <Button 
                     component={Link} 
@@ -145,6 +155,18 @@ export default function AppAppBar() {
                     size="medium"
                   >
                     NJIT XC Invitational
+                  </Button>
+                </MenuItem>
+                <MenuItem>
+                  <Button 
+                    component={Link} 
+                    to="/release" 
+                    sx={{ fontWeight: "bold", width: "100%" }} 
+                    variant="text" 
+                    color="primary" 
+                    size="medium"
+                  >
+                    Release Form
                   </Button>
                 </MenuItem>
               </Box>
