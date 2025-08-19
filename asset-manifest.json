@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ebacccb3.css",
-    "main.js": "/static/js/main.7361b46a.js",
+    "main.js": "/static/js/main.333b716b.js",
     "static/media/pdf.worker.min.mjs": "/static/media/pdf.worker.min.2b548340be18274ba1cf.mjs",
-    "static/media/21stAnnualNJITXCInvitationalInfoSheet.pdf": "/static/media/21stAnnualNJITXCInvitationalInfoSheet.3b759b12e66f62b16f7a.pdf",
+    "static/media/21stAnnualNJITXCInvitationalInfoSheet.pdf": "/static/media/21stAnnualNJITXCInvitationalInfoSheet.57c82e23b426801e5111.pdf",
     "static/media/NJITAlumniXCOpenerInfoSheet.pdf": "/static/media/NJITAlumniXCOpenerInfoSheet.1a2d77f72795e43b7fe2.pdf",
     "static/media/NJITXCSeriesReleaseofLiabilityWaiver.pdf": "/static/media/NJITXCSeriesReleaseofLiabilityWaiver.4a0f54b728d7254daadf.pdf",
     "index.html": "/index.html",
     "main.ebacccb3.css.map": "/static/css/main.ebacccb3.css.map",
-    "main.7361b46a.js.map": "/static/js/main.7361b46a.js.map"
+    "main.333b716b.js.map": "/static/js/main.333b716b.js.map"
   },
   "entrypoints": [
     "static/css/main.ebacccb3.css",
-    "static/js/main.7361b46a.js"
+    "static/js/main.333b716b.js"
   ]
 }
